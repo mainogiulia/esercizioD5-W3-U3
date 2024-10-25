@@ -5,6 +5,12 @@
       "password": "$2a$10$DeFj6sF/akZsV0Ksmsm6Ge/yR2IdoYZo1K0gvvuiNX54Y9hYDny/.",
       "name": "aa",
       "id": 1
+    },
+    {
+      "email": "bb@bb.com",
+      "password": "$2a$10$Wy4zvp97weR2JlxAu5440.D/ryTeSzzHRrg51jczlicTAQVxBihIa",
+      "name": "bb",
+      "id": 2
     }
   ],
   "movies": [
@@ -173,6 +179,30 @@
       "info": "A young woman cursed with old age seeks the help of a mysterious wizard, Howl, who lives in a walking castle.",
       "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/scan010_66b3c512-9aba-43c5-9810-a2e3ebef1e5f_500x749.jpg?v=1686327383",
       "userName": "aa"
+    },
+    {
+      "id": 2,
+      "title": "Clueless",
+      "year": 1995,
+      "info": "A wealthy and popular high school student, Cher Horowitz, navigates the complexities of teenage life, love, and friendship.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/clueless.mpw.123676_500x749.jpg?v=1707422767",
+      "userName": "bb"
+    },
+    {
+      "id": 8,
+      "title": "The Iron Giant",
+      "year": 1999,
+      "info": "A young boy befriends a giant robot who has crash-landed on Earth and must protect him from the government.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/25cd0d7f705625804f256a9c52892943_d045e4a2-6cdb-4a5e-9604-8fcc96f057c7_500x749.jpg?v=1573593838",
+      "userName": "bb"
+    },
+    {
+      "id": 10,
+      "title": "Perfect Blue",
+      "year": 1997,
+      "info": "A pop singer struggles to maintain her sanity as her identity blurs with that of her stalker.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzAwNDIzMzEtZDZkNC00ZDQ4LTk3ZDMtZjVhMTU2YzgzZTZiXkEyXkFqcGc@._V1_.jpg",
+      "userName": "bb"
     }
   ]
 }
