@@ -1,16 +1,28 @@
 {
   "users": [
     {
-      "email": "aa@aa.com",
-      "password": "$2a$10$DeFj6sF/akZsV0Ksmsm6Ge/yR2IdoYZo1K0gvvuiNX54Y9hYDny/.",
-      "name": "aa",
-      "id": 1
+      "email": "giulia@email.com",
+      "password": "$2a$10$aJ8v8BULu4I6b0lnbehbRumoBpyXPkipYNr.3iJ8rO9r3xItdj252",
+      "name": "Giulia",
+      "id": 4
     },
     {
-      "email": "bb@bb.com",
-      "password": "$2a$10$Wy4zvp97weR2JlxAu5440.D/ryTeSzzHRrg51jczlicTAQVxBihIa",
-      "name": "bb",
-      "id": 2
+      "email": "marco@email.com",
+      "password": "$2a$10$rJozEedvIY5.bKqu3MCE3evLj3oG3pwsqretP5PQIsexXTs.nZ9y.",
+      "name": "Marco",
+      "id": 5
+    },
+    {
+      "email": "luca@email.com",
+      "password": "$2a$10$j6wwWt0NwpNiKACdwzCTiOexsDUn7tgzhtKdwNYm2FaM4GIsShWKe",
+      "name": "Luca",
+      "id": 6
+    },
+    {
+      "email": "paola@email.com",
+      "password": "$2a$10$eWwH8GSfILS6PWzgezyL9OjF7gPVoELb2/p568.uhL2qNn3jmzvMq",
+      "name": "Paola",
+      "id": 7
     }
   ],
   "movies": [
@@ -162,23 +174,7 @@
       "year": 2008,
       "info": "Batman faces his greatest challenge yet when the Joker, a brilliant and ruthless criminal mastermind, throws Gotham City into chaos.",
       "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/darkknight.building.24x36_20e90057-f673-4cc3-9ce7-7b0d3eeb7d83_500x749.jpg?v=1707491191",
-      "userName": "aa"
-    },
-    {
-      "id": 4,
-      "title": "Charlie Chaplin - The Great Dictator",
-      "year": 1940,
-      "info": "A Jewish barber mistaken for a dictator in a totalitarian state uses his platform to speak out against fascism and oppression.",
-      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b33e5183ea9bcdcdb07c0460eb074665_5fd07732-6bc7-4064-8aad-6e7074ba4d06_500x749.jpg?v=1573653931",
-      "userName": "aa"
-    },
-    {
-      "id": 5,
-      "title": "Howl's Moving Castle",
-      "year": 2004,
-      "info": "A young woman cursed with old age seeks the help of a mysterious wizard, Howl, who lives in a walking castle.",
-      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/scan010_66b3c512-9aba-43c5-9810-a2e3ebef1e5f_500x749.jpg?v=1686327383",
-      "userName": "aa"
+      "userName": "Marco"
     },
     {
       "id": 2,
@@ -186,15 +182,23 @@
       "year": 1995,
       "info": "A wealthy and popular high school student, Cher Horowitz, navigates the complexities of teenage life, love, and friendship.",
       "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/clueless.mpw.123676_500x749.jpg?v=1707422767",
-      "userName": "bb"
+      "userName": "Marco"
     },
     {
-      "id": 8,
-      "title": "The Iron Giant",
-      "year": 1999,
-      "info": "A young boy befriends a giant robot who has crash-landed on Earth and must protect him from the government.",
-      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/25cd0d7f705625804f256a9c52892943_d045e4a2-6cdb-4a5e-9604-8fcc96f057c7_500x749.jpg?v=1573593838",
-      "userName": "bb"
+      "id": 6,
+      "title": "Spirited Away",
+      "year": 2001,
+      "info": "A young girl enters a magical world and must find a way to save her parents from a witch's curse.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/spirtedaway.jap.24x36_500x749.jpg?v=1709822795",
+      "userName": "Marco"
+    },
+    {
+      "id": 7,
+      "title": "Princess Mononoke",
+      "year": 1997,
+      "info": "A young warrior must find a way to bring peace between the humans and the forest spirits who are fighting over the land.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/princessmononoke.jap.136669_500x749.jpg?v=1709329542",
+      "userName": "Luca"
     },
     {
       "id": 10,
@@ -202,7 +206,63 @@
       "year": 1997,
       "info": "A pop singer struggles to maintain her sanity as her identity blurs with that of her stalker.",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzAwNDIzMzEtZDZkNC00ZDQ4LTk3ZDMtZjVhMTU2YzgzZTZiXkEyXkFqcGc@._V1_.jpg",
-      "userName": "bb"
+      "userName": "Luca"
+    },
+    {
+      "id": 11,
+      "title": "The Road to El Dorado",
+      "year": 2000,
+      "info": "Two con men stumble upon a map to the lost city of El Dorado and set out on a quest for riches and adventure.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/the-road-to-el-dorado_2c759bc9_500x749.jpg?v=1620923810",
+      "userName": "Luca"
+    },
+    {
+      "id": 15,
+      "title": "Star Wars - Episode I",
+      "year": 1999,
+      "info": "A young Anakin Skywalker is discovered as a powerful Jedi and joins the fight against the evil Sith Lord Darth Maul.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/91111b0591b7ed55f3b8c92b033c5614_6f0545c8-28d9-48cd-8e6b-278a1d93377a_500x749.jpg?v=1573617342",
+      "userName": "Luca"
+    },
+    {
+      "id": 13,
+      "title": "The Lord of the Rings - The Two Towers",
+      "year": 2002,
+      "info": "Frodo and Sam continue their perilous journey to Mordor, while Aragorn, Legolas, and Gimli pursue the orcs who have captured Merry and Pippin.",
+      "poster": "https://www.movieposters.com/cdn/shop/files/ItemR81771_jpg_480x.progressive.jpg?v=1694023916",
+      "userName": "Luca"
+    },
+    {
+      "id": 3,
+      "title": "Pretty Woman",
+      "year": 1990,
+      "info": "A wealthy businessman hires a Hollywood prostitute to be his escort for a week, but their relationship develops into something unexpected.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/prettywoman_500x749.jpg?v=1622051779",
+      "userName": "Paola"
+    },
+    {
+      "id": 5,
+      "title": "Howl's Moving Castle",
+      "year": 2004,
+      "info": "A young woman cursed with old age seeks the help of a mysterious wizard, Howl, who lives in a walking castle.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/scan010_66b3c512-9aba-43c5-9810-a2e3ebef1e5f_500x749.jpg?v=1686327383",
+      "userName": "Paola"
+    },
+    {
+      "id": 4,
+      "title": "Charlie Chaplin - The Great Dictator",
+      "year": 1940,
+      "info": "A Jewish barber mistaken for a dictator in a totalitarian state uses his platform to speak out against fascism and oppression.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b33e5183ea9bcdcdb07c0460eb074665_5fd07732-6bc7-4064-8aad-6e7074ba4d06_500x749.jpg?v=1573653931",
+      "userName": "Paola"
+    },
+    {
+      "id": 9,
+      "title": "Whisper of the Heart",
+      "year": 1995,
+      "info": "A young girl discovers her passion for writing and finds inspiration in a mysterious cat.",
+      "poster": "https://i.ebayimg.com/images/g/eawAAOSwQOdftm4L/s-l1200.jpg",
+      "userName": "Paola"
     }
   ]
 }

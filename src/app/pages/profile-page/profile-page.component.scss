@@ -5,15 +5,26 @@ body {
   height: 100vh;
   padding-top: 3rem;
   font-family: "Montserrat", sans-serif;
+  height: 100%;
 }
 
 .cards {
   border: 5px solid #2b2638;
   color: #2b2638;
-  min-height: 800px;
+  min-height: 700px;
 }
 
 h3 {
   color: #2b2638;
   text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.userinfo {
+  background-color: #676179;
+  padding-block: 0.5rem;
+  margin-bottom: 2rem;
 }

@@ -31,7 +31,6 @@ export class HeaderComponent {
     this.authSvc.getAllUsers().subscribe((users) => {
       this.users = users;
     });
-    console.log(this.users);
   }
 
   logout(): void {
