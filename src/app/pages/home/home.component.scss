@@ -1,0 +1,21 @@
+img {
+  object-fit: cover;
+}
+
+.cards {
+  border: 5px solid #2b2638;
+  color: #2b2638;
+  min-height: 850px;
+}
+
+body {
+  padding-bottom: 5rem;
+  background-color: #bdbac5;
+}
+
+button {
+  color: #2b2638;
+  &:hover {
+    background-color: #2b2638;
+  }
+}

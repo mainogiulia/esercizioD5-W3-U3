@@ -1,0 +1,146 @@
+{
+  "users": [],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "info": "Batman faces his greatest challenge yet when the Joker, a brilliant and ruthless criminal mastermind, throws Gotham City into chaos.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/darkknight.building.24x36_20e90057-f673-4cc3-9ce7-7b0d3eeb7d83_500x749.jpg?v=1707491191"
+    },
+    {
+      "id": 2,
+      "title": "Clueless",
+      "year": 1995,
+      "info": "A wealthy and popular high school student, Cher Horowitz, navigates the complexities of teenage life, love, and friendship.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/clueless.mpw.123676_500x749.jpg?v=1707422767"
+    },
+    {
+      "id": 3,
+      "title": "Pretty Woman",
+      "year": 1990,
+      "info": "A wealthy businessman hires a Hollywood prostitute to be his escort for a week, but their relationship develops into something unexpected.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/prettywoman_500x749.jpg?v=1622051779"
+    },
+    {
+      "id": 4,
+      "title": "Charlie Chaplin - The Great Dictator",
+      "year": 1940,
+      "info": "A Jewish barber mistaken for a dictator in a totalitarian state uses his platform to speak out against fascism and oppression.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b33e5183ea9bcdcdb07c0460eb074665_5fd07732-6bc7-4064-8aad-6e7074ba4d06_500x749.jpg?v=1573653931"
+    },
+    {
+      "id": 5,
+      "title": "Howl's Moving Castle",
+      "year": 2004,
+      "info": "A young woman cursed with old age seeks the help of a mysterious wizard, Howl, who lives in a walking castle.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/scan010_66b3c512-9aba-43c5-9810-a2e3ebef1e5f_500x749.jpg?v=1686327383"
+    },
+    {
+      "id": 6,
+      "title": "Spirited Away",
+      "year": 2001,
+      "info": "A young girl enters a magical world and must find a way to save her parents from a witch's curse.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/spirtedaway.jap.24x36_500x749.jpg?v=1709822795"
+    },
+    {
+      "id": 7,
+      "title": "Princess Mononoke",
+      "year": 1997,
+      "info": "A young warrior must find a way to bring peace between the humans and the forest spirits who are fighting over the land.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/princessmononoke.jap.136669_500x749.jpg?v=1709329542"
+    },
+    {
+      "id": 8,
+      "title": "The Iron Giant",
+      "year": 1999,
+      "info": "A young boy befriends a giant robot who has crash-landed on Earth and must protect him from the government.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/25cd0d7f705625804f256a9c52892943_d045e4a2-6cdb-4a5e-9604-8fcc96f057c7_500x749.jpg?v=1573593838"
+    },
+    {
+      "id": 9,
+      "title": "Whisper of the Heart",
+      "year": 1995,
+      "info": "A young girl discovers her passion for writing and finds inspiration in a mysterious cat.",
+      "poster": "https://i.ebayimg.com/images/g/eawAAOSwQOdftm4L/s-l1200.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Perfect Blue",
+      "year": 1997,
+      "info": "A pop singer struggles to maintain her sanity as her identity blurs with that of her stalker.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzAwNDIzMzEtZDZkNC00ZDQ4LTk3ZDMtZjVhMTU2YzgzZTZiXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Road to El Dorado",
+      "year": 2000,
+      "info": "Two con men stumble upon a map to the lost city of El Dorado and set out on a quest for riches and adventure.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/the-road-to-el-dorado_2c759bc9_500x749.jpg?v=1620923810"
+    }
+    {
+      "id": 12,
+      "title": "The Lord of the Rings - The Fellowship of the Ring",
+      "year": 2001,
+      "info": "A hobbit named Frodo inherits a powerful ring and must journey to Mordor to destroy it before the evil Sauron conquers Middle-earth.",
+      "poster": "https://www.movieposters.com/cdn/shop/files/ItemP2658_jpg_480x.progressive.jpg?v=1692302023"
+    },
+    {
+      "id": 13,
+      "title": "The Lord of the Rings - The Two Towers",
+      "year": 2002,
+      "info": "Frodo and Sam continue their perilous journey to Mordor, while Aragorn, Legolas, and Gimli pursue the orcs who have captured Merry and Pippin.",
+      "poster": "https://www.movieposters.com/cdn/shop/files/ItemR81771_jpg_480x.progressive.jpg?v=1694023916"
+    },
+    {
+      "id": 14,
+      "title": "The Lord of the Rings - The Return of the King",
+      "year": 2003,
+      "info": "The final battle for Middle-earth begins as Frodo and Sam face the ultimate test of their courage and friendship.",
+      "poster": "https://www.movieposters.com/cdn/shop/products/544fbfc37d3def7c758e0620a9ad2fd8_10a2cdea-1696-40d9-bd33-af7335a5b5a0_480x.progressive.jpg?v=1573588792"
+    },
+    {
+      "id": 15,
+      "title": "Star Wars - Episode I",
+      "year": 1999,
+      "info": "A young Anakin Skywalker is discovered as a powerful Jedi and joins the fight against the evil Sith Lord Darth Maul.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/91111b0591b7ed55f3b8c92b033c5614_6f0545c8-28d9-48cd-8e6b-278a1d93377a_500x749.jpg?v=1573617342"
+    },
+    {
+      "id": 16,
+      "title": "Star Wars - Episode II",
+      "year": 2002,
+      "info": "Anakin struggles with his growing powers and the temptations of the dark side while the Republic faces a new threat from the Separatist movement.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/207664b545f1c2d1c76ef6f000c6d90f_13e8135e-eb83-4d4d-9496-a9753f904330_500x749.jpg?v=1573613942"
+    },
+    {
+      "id": 17,
+      "title": "Star Wars - Episode III",
+      "year": 2005,
+      "info": "The Clone Wars escalate as Anakin succumbs to the dark side and becomes Darth Vader, while Obi-Wan Kenobi faces his former apprentice in a climactic lightsaber duel.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/ad524bd1959b70ace5023856a777fc43_0f931fa2-25b7-423e-97fa-a8a448e19bec_500x749.jpg?v=1573653957"
+    },
+    {
+      "id": 18,
+      "title": "Star Wars - Episode VI",
+      "year": 1977,
+      "info": "Luke Skywalker, Han Solo, and Princess Leia join forces with the Rebel Alliance to fight the evil Galactic Empire and rescue Princess Leia from the clutches of Darth Vader.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/f38cb38707f05dc86f483b07c215c7dd_a1fb33f9-f075-438f-bc49-2e8c2a2e2d02_500x749.jpg?v=1573653657"
+    },
+    {
+      "id": 19,
+      "title": "Star Wars - Episode V",
+      "year": 1980,
+      "info": "Luke Skywalker confronts Darth Vader and learns the truth about his father, while Han Solo is captured by the bounty hunter Boba Fett.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/ItemR84674_jpg_500x749.jpg?v=1682366643"
+    },
+    {
+      "id": 20,
+      "title": "Star Wars - Episode VI",
+      "year": 1983,
+      "info": "The Rebel Alliance launches a daring attack on the second Death Star, hoping to destroy the Empire's ultimate weapon and bring peace to the galaxy.",
+      "poster": "https://i.ebayimg.com/images/g/WL0AAOSwPgBgVTa1/s-l1200.jpg"
+    },
+  ],
+  "favourites": []
+}

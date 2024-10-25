@@ -1,0 +1,36 @@
+<body>
+  <div class="container d-flex">
+    <div>
+      <img
+        src="https://i.etsystatic.com/34721648/r/il/ad646f/6251275795/il_570xN.6251275795_bgat.jpg"
+        alt="posters collage"
+      />
+    </div>
+    <div>
+      <div class="container">
+        <h1>Login</h1>
+        <p>
+          Don't have an account yet?
+          <a *ngIf="!isLoggedIn" routerLink="/auth/register">Sign up</a>
+        </p>
+        <form>
+          <input
+            type="email"
+            class="form-control mb-3"
+            placeholder="Email"
+            name="email"
+            [(ngModel)]="formData.email"
+          />
+          <input
+            type="password"
+            class="form-control mb-3"
+            placeholder="Password"
+            name="password"
+            [(ngModel)]="formData.password"
+          />
+          <button (click)="login()" class="btn btn-success">Accedi</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>

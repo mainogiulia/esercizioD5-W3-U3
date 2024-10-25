@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  background-color: #676179;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.active {
+  background-color: #2b2638;
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button:hover {
+  background-color: #2b2638;
+  color: white;
+  border-color: #2b2638;
+}

@@ -1,0 +1,80 @@
+<header class="p-3">
+  <div class="container">
+    <div
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+    >
+      <div class="title">
+        <img src="/logoo.png" alt="" />
+        <h1>Your Destination for Movie Discovery.</h1>
+      </div>
+      <div class="container wrapper">
+        <div>
+          <ul
+            *ngIf="isLoggedIn"
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a
+                routerLink="/home"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                class="nav-link px-2 text-white"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                routerLink="/profilePage"
+                routerLinkActive="active"
+                class="nav-link px-2 text-white"
+                >Profile</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ng-template #content let-offcanvas>
+            <div class="offcanvas-header">
+              <h4 class="offcanvas-title">Offcanvas title</h4>
+              <button
+                type="button"
+                class="btn-close"
+                aria-label="Close"
+                (click)="offcanvas.dismiss('Cross click')"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>One fine body&hellip;</p>
+              <div class="text-end">
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary"
+                  (click)="offcanvas.close('Close click')"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </ng-template>
+          <div class="text-end">
+            <button
+              *ngIf="isLoggedIn"
+              class="btn btn-outline-light me-2"
+              (click)="openStaticBackdrop(content)"
+            >
+              Static backdrop
+            </button>
+            <button
+              *ngIf="isLoggedIn"
+              (click)="logout()"
+              class="btn btn-outline-light me-2"
+            >
+              Logout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
