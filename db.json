@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "email": "giulia@email.com",
-      "password": "$2a$10$aJ8v8BULu4I6b0lnbehbRumoBpyXPkipYNr.3iJ8rO9r3xItdj252",
-      "name": "Giulia",
-      "id": 4
-    },
-    {
       "email": "marco@email.com",
       "password": "$2a$10$rJozEedvIY5.bKqu3MCE3evLj3oG3pwsqretP5PQIsexXTs.nZ9y.",
       "name": "Marco",
@@ -23,6 +17,18 @@
       "password": "$2a$10$eWwH8GSfILS6PWzgezyL9OjF7gPVoELb2/p568.uhL2qNn3jmzvMq",
       "name": "Paola",
       "id": 7
+    },
+    {
+      "email": "giulia@email.com",
+      "password": "$2a$10$flxRtlgAe2KfUSQnevpFQuGE4zzhSNIw6eWlmhjgldvCt/RSA4TiW",
+      "name": "Giulia",
+      "id": 8
+    },
+    {
+      "email": "esempio@email.com",
+      "password": "$2a$10$PRmq4tt9CxEsxDLeuZAndeEuDsiZ.ptwmlyZPEUvHsfbesvT/9/yi",
+      "name": "Esempio",
+      "id": 9
     }
   ],
   "movies": [
@@ -263,6 +269,30 @@
       "info": "A young girl discovers her passion for writing and finds inspiration in a mysterious cat.",
       "poster": "https://i.ebayimg.com/images/g/eawAAOSwQOdftm4L/s-l1200.jpg",
       "userName": "Paola"
+    },
+    {
+      "id": 8,
+      "title": "The Iron Giant",
+      "year": 1999,
+      "info": "A young boy befriends a giant robot who has crash-landed on Earth and must protect him from the government.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/25cd0d7f705625804f256a9c52892943_d045e4a2-6cdb-4a5e-9604-8fcc96f057c7_500x749.jpg?v=1573593838",
+      "userName": "Giulia"
+    },
+    {
+      "id": 17,
+      "title": "Star Wars - Episode III",
+      "year": 2005,
+      "info": "The Clone Wars escalate as Anakin succumbs to the dark side and becomes Darth Vader, while Obi-Wan Kenobi faces his former apprentice in a climactic lightsaber duel.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/ad524bd1959b70ace5023856a777fc43_0f931fa2-25b7-423e-97fa-a8a448e19bec_500x749.jpg?v=1573653957",
+      "userName": "Giulia"
+    },
+    {
+      "id": 16,
+      "title": "Star Wars - Episode II",
+      "year": 2002,
+      "info": "Anakin struggles with his growing powers and the temptations of the dark side while the Republic faces a new threat from the Separatist movement.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/207664b545f1c2d1c76ef6f000c6d90f_13e8135e-eb83-4d4d-9496-a9753f904330_500x749.jpg?v=1573613942",
+      "userName": "Esempio"
     }
   ]
 }
