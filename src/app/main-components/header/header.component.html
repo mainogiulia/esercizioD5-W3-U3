@@ -31,29 +31,49 @@
               >
             </li>
           </ul>
+          <ul
+            *ngIf="!isLoggedIn"
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <button routerLink="/auth/login" class="nav-link px-2 text-white">
+                Log in
+              </button>
+            </li>
+            <li>
+              <button
+                routerLink="/auth/register"
+                class="nav-link px-2 text-white"
+              >
+                Sign up
+              </button>
+            </li>
+          </ul>
         </div>
 
         <div>
           <ng-template #content let-offcanvas>
-            <div class="offcanvas-header">
-              <h4 class="offcanvas-title">Offcanvas title</h4>
-              <button
-                type="button"
-                class="btn-close"
-                aria-label="Close"
-                (click)="offcanvas.dismiss('Cross click')"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <p>One fine body&hellip;</p>
-              <div class="text-end">
-                <button
-                  type="button"
-                  class="btn btn-outline-secondary"
-                  (click)="offcanvas.close('Close click')"
-                >
-                  Close
-                </button>
+            <div class="body">
+              <div class="offcanvas-header">
+                <h4 class="offcanvas-title">
+                  Friends that recently logged in:
+                </h4>
+              </div>
+              <div class="offcanvas-body">
+                <ul>
+                  <li class="userlist" *ngFor="let user of users">
+                    <p class="username">Username: {{ user.name }}</p>
+                    <p class="email">email: {{ user.email }}</p>
+                  </li>
+                </ul>
+                <div class="text-end">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    aria-label="Close"
+                    (click)="offcanvas.dismiss('Cross click')"
+                  ></button>
+                </div>
               </div>
             </div>
           </ng-template>
@@ -63,7 +83,7 @@
               class="btn btn-outline-light me-2"
               (click)="openStaticBackdrop(content)"
             >
-              Static backdrop
+              Friends List
             </button>
             <button
               *ngIf="isLoggedIn"

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { environment } from '../../environments/environment.development';
-import { BehaviorSubject, map, tap } from 'rxjs';
+import { BehaviorSubject, map, Observable, tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { iAccessData } from '../interfaces/i-access-data';
@@ -16,6 +16,7 @@ export class AuthService {
 
   registerUrl: string = environment.registerUrl;
   loginUrl: string = environment.loginUrl;
+  usersUrls: string = environment.usersUrl;
 
   authSubject$ = new BehaviorSubject<iAccessData | null>(null);
 
@@ -84,5 +85,9 @@ export class AuthService {
     }
 
     this.authSubject$.next(accessData);
+  }
+
+  getAllUsers(): Observable<iUser[]> {
+    return this.http.get<iUser[]>(this.usersUrls);
   }
 }

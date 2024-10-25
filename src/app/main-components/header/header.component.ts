@@ -1,6 +1,7 @@
 import { Component, inject, TemplateRef } from '@angular/core';
 import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 import { AuthService } from '../../auth/auth.service';
+import { iUser } from '../../interfaces/i-user';
 
 @Component({
   selector: 'app-header',
@@ -16,6 +17,8 @@ export class HeaderComponent {
   }
   //
 
+  users: iUser[] = [];
+
   isLoggedIn: boolean = false;
 
   constructor(private authSvc: AuthService) {}
@@ -24,6 +27,11 @@ export class HeaderComponent {
     this.authSvc.isLoggedIn$.subscribe((isLoggedIn) => {
       this.isLoggedIn = isLoggedIn;
     });
+
+    this.authSvc.getAllUsers().subscribe((users) => {
+      this.users = users;
+    });
+    console.log(this.users);
   }
 
   logout(): void {

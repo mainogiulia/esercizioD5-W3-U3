@@ -1,5 +1,12 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "aa@aa.com",
+      "password": "$2a$10$DeFj6sF/akZsV0Ksmsm6Ge/yR2IdoYZo1K0gvvuiNX54Y9hYDny/.",
+      "name": "aa",
+      "id": 1
+    }
+  ],
   "movies": [
     {
       "id": 1,
@@ -77,7 +84,7 @@
       "year": 2000,
       "info": "Two con men stumble upon a map to the lost city of El Dorado and set out on a quest for riches and adventure.",
       "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/the-road-to-el-dorado_2c759bc9_500x749.jpg?v=1620923810"
-    }
+    },
     {
       "id": 12,
       "title": "The Lord of the Rings - The Fellowship of the Ring",
@@ -140,7 +147,32 @@
       "year": 1983,
       "info": "The Rebel Alliance launches a daring attack on the second Death Star, hoping to destroy the Empire's ultimate weapon and bring peace to the galaxy.",
       "poster": "https://i.ebayimg.com/images/g/WL0AAOSwPgBgVTa1/s-l1200.jpg"
-    },
+    }
   ],
-  "favourites": []
+  "favourites": [
+    {
+      "id": 1,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "info": "Batman faces his greatest challenge yet when the Joker, a brilliant and ruthless criminal mastermind, throws Gotham City into chaos.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/darkknight.building.24x36_20e90057-f673-4cc3-9ce7-7b0d3eeb7d83_500x749.jpg?v=1707491191",
+      "userName": "aa"
+    },
+    {
+      "id": 4,
+      "title": "Charlie Chaplin - The Great Dictator",
+      "year": 1940,
+      "info": "A Jewish barber mistaken for a dictator in a totalitarian state uses his platform to speak out against fascism and oppression.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b33e5183ea9bcdcdb07c0460eb074665_5fd07732-6bc7-4064-8aad-6e7074ba4d06_500x749.jpg?v=1573653931",
+      "userName": "aa"
+    },
+    {
+      "id": 5,
+      "title": "Howl's Moving Castle",
+      "year": 2004,
+      "info": "A young woman cursed with old age seeks the help of a mysterious wizard, Howl, who lives in a walking castle.",
+      "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/scan010_66b3c512-9aba-43c5-9810-a2e3ebef1e5f_500x749.jpg?v=1686327383",
+      "userName": "aa"
+    }
+  ]
 }
