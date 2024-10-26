@@ -29,6 +29,5 @@ export class ProfilePageComponent {
         });
       }
     });
-    console.log(this.currentUser);
   }
 }
